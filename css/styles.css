@@ -33,6 +33,11 @@ h4 {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /*----HEADER--------*/
 
 .header-menu-link {
