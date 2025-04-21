@@ -63,6 +63,11 @@ h4 {
   color: #404bbf;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -79,10 +84,19 @@ h4 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  margin-left: auto;
 }
 
+.header-navigation {
+  display: flex;
+}
 .address {
   font-style: normal;
+}
+
+.address-list {
+  display: flex;
 }
 
 .address-link:hover,
