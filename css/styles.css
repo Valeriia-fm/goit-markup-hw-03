@@ -205,7 +205,6 @@ h4 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  max-width: 162px;
   margin: 0 auto;
   padding-bottom: 72px;
   padding-top: 120px;
@@ -214,11 +213,12 @@ h4 {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  gap: 24px;
+  margin-bottom: 120px;
 }
 
 .team-list {
   display: flex;
+  gap: 24px;
 }
 
 .name {
@@ -228,6 +228,8 @@ h4 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .team-desc {
   font-weight: 400;
@@ -236,6 +238,7 @@ h4 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
 }
 
 .team {
@@ -282,6 +285,14 @@ h4 {
   color: #434455;
 }
 
+.portf-cont {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 /*-----------OUR PORTFOLIO----------*/
 
 /*-------FOOTER----------*/
@@ -305,9 +316,12 @@ h4 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 /*--------FOOTER------*/
