@@ -38,6 +38,10 @@ h4 {
   padding-bottom: 120px;
 }
 
+.img {
+  display: block;
+}
+
 /*----HEADER--------*/
 
 .header-menu-link {
@@ -68,6 +72,7 @@ h4 {
 .header .container {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -78,6 +83,7 @@ h4 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-menu-list {
@@ -88,12 +94,14 @@ h4 {
   color: #2e2f42;
   display: flex;
   margin-left: auto;
+  gap: 40px;
 }
 
 .header-navigation {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 .address {
   font-style: normal;
@@ -103,6 +111,7 @@ h4 {
 
 .address-list {
   display: flex;
+  gap: 40px;
 }
 
 .address-link:hover,
@@ -125,6 +134,7 @@ h4 {
 .hero {
   background-color: #2e2f42;
   text-align: center;
+  padding: 188px 0 188px;
 }
 
 .hero-title {
@@ -136,8 +146,6 @@ h4 {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 48px;
 }
 
 .hero-btn {
@@ -151,7 +159,7 @@ h4 {
   height: 56px;
   border-radius: 4px;
   border: none;
-  margin-bottom: 188px;
+  display: block;
 }
 
 .hero-btn:hover,
