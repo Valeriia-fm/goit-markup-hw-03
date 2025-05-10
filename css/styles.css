@@ -38,7 +38,7 @@ h4 {
   padding-bottom: 120px;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -58,7 +58,6 @@ h4 {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -115,14 +114,10 @@ h4 {
 
 .header-navigation {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   align-items: center;
 }
 .address {
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address-list {
@@ -142,6 +137,11 @@ h4 {
   letter-spacing: 0.02em;
   color: #434455;
   padding-left: 40px;
+}
+.header-menu-link,
+.address-link {
+  padding: 24px 0;
+  display: block;
 }
 
 /*----------HEADER---------*/
