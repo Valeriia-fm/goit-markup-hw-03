@@ -46,11 +46,11 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
+  padding: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   white-space: nowrap;
+  clip-path: inset(50%);
   border: 0;
 }
 
@@ -63,6 +63,7 @@ img {
 .header-menu-link {
   color: #2e2f42;
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -214,6 +215,9 @@ img {
   padding: 120px 0;
 }
 
+.advantages {
+  padding: 120px 0;
+}
 /*------------BENEFITS---------*/
 
 /*-----------TEAM--------------*/
@@ -227,14 +231,14 @@ img {
   text-align: center;
   color: #2e2f42;
   margin: 0 auto;
-  padding-bottom: 72px;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
@@ -264,6 +268,11 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.aside {
+  padding: 32px 0;
 }
 /*----------------TEAM------------*/
 
@@ -278,12 +287,13 @@ img {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
   margin-bottom: 48px;
 }
 
@@ -297,6 +307,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portf-text {
   font-weight: 400;
@@ -310,9 +321,10 @@ img {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+}
+.main-portfolio {
+  padding-top: 120px;
 }
 /*-----------OUR PORTFOLIO----------*/
 
@@ -325,12 +337,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-color {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
